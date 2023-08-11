@@ -127,7 +127,7 @@ class Polygon {
     }
     this.#ctx.closePath();
     this.#ctx.strokeStyle = this.#color;
-    this.#ctx.lineWidth = 7.5;
+    this.#ctx.lineWidth = 2;
     this.#ctx.stroke();
     if (this.#position.equals(this.#destination)) {
       this.#destination = Vector.random(this.#canvas);
@@ -151,8 +151,8 @@ class Polygon {
 }
 
 export default class Renderer {
-  static #MIN_POLYGONS = 50;
-  static #MAX_POLYGONS = 75;
+  static #MIN_POLYGONS = 25;
+  static #MAX_POLYGONS = 50;
 
   #canvas;
   #ctx;
