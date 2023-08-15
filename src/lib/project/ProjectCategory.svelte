@@ -14,7 +14,7 @@
 </script>
 
 <Category name='Projects'>
-  <Project name='DeltaLang' technologies={['Java', 'Gson', 'Gradle']} github='deltalang'>
+  <Project name='DeltaLang' technologies={['Java', 'Gson', 'Gradle', 'Lombok']} github='deltalang'>
     DeltaLang is a simple interpreted programming language
   </Project>
   <Project name='QuarkEngine' technologies={['C', 'OpenGL', 'GLFW', 'GLSL']} github='quarkengine'>
@@ -32,7 +32,7 @@
     <Downloads>1.5</Downloads>
   </Project>
   <Project name='Delta' technologies={[
-          'Java', 'Guava', 'Gson', 'Reflections', 'Spigot', 'Jackson', 'Gradle API', 'Doclet', 'Gradle', 'Lombok'
+          'Java', 'Guava', 'Gson', 'Reflections', 'Spigot', 'Jackson', 'Gradle API', 'Doclet', 'Gradle'
           ]} github='delta'>
     Delta is the backbone of my plugins: Reforging and Pets
   </Project>
