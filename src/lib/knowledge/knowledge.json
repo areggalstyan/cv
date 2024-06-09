@@ -1,0 +1,86 @@
+[
+  {
+    "title": "General",
+    "tags": [
+      "Object-oriented programming",
+      "Patterns",
+      "Algorithms",
+      "Data structures"
+    ]
+  },
+  {
+    "title": "Web",
+    "tags": [
+      "JS",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Vite",
+      "Sass",
+      "Scss",
+      "Bootstrap",
+      "jQuery",
+      "Tailwind CSS",
+      "Svelte",
+      "SvelteKit",
+      "Electron",
+      "Canvas API",
+      "Strapi",
+      "Leaflet",
+      "Markdown",
+      "Docusaurus",
+      "Vercel"
+    ]
+  },
+  {
+    "title": "Java",
+    "tags": [
+      "Core language",
+      "Generics",
+      "Reflection",
+      "Annotation processing",
+      "Collections",
+      "I/O",
+      "Gson",
+      "Jackson",
+      "Reflections",
+      "Exp4j",
+      "JUnit",
+      "Gradle",
+      "Gradle plugin development",
+      "Guava",
+      "Apache commons",
+      "Lombok",
+      "Spigot"
+    ]
+  },
+  {
+    "title": "C#",
+    "tags": [
+      "Core language",
+      "Generics",
+      "Collections",
+      "I/O",
+      "Unity"
+    ]
+  },
+  {
+    "title": "C",
+    "tags": [
+      "Core language",
+      "Memory management",
+      "I/O",
+      "OpenGL",
+      "GLFW",
+      "GLSL"
+    ]
+  },
+  {
+    "title": "Languages",
+    "tags": [
+      "Armenian (Native)",
+      "Russian (Fluent)",
+      "English (Advanced)"
+    ]
+  }
+]

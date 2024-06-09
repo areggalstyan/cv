@@ -1,19 +1,13 @@
 <script>
-  import Category from '../Category.svelte';
-  import Knowledge from './Knowledge.svelte';
+  export let title;
+  export let tags;
 </script>
 
-<Category name='Knowledge'>
-  <Knowledge name='General' items={['Object-oriented programming', 'Patterns', 'Algorithms', 'Data structures']} />
-  <Knowledge name='Java' items={[
-          'Core language', 'Generics', 'Reflection', 'Annotation processing', 'Collections', 'I/O', 'Gson', 'Jackson',
-          'Reflections', 'Exp4j', 'JUnit', 'Gradle', 'Gradle plugin development', 'Guava', 'Apache commons', 'Lombok',
-          'Spigot'
-        ]} />
-  <Knowledge name='Web' items={[
-          'JS', 'HTML', 'CSS', 'Node.js', 'Vite', 'Sass', 'Scss', 'Bootstrap', 'jQuery', 'Tailwind CSS', 'Svelte',
-          'SvelteKit', 'Electron', 'Canvas API', 'Strapi', 'Leaflet', 'Markdown', 'Docusaurus', 'Vercel'
-        ]} />
-  <Knowledge name='C#' items={['Core language', 'Generics', 'Collections', 'I/O', 'Unity']} />
-  <Knowledge name='C' items={['Core language', 'Memory management', 'I/O', 'OpenGL', 'GLFW', 'GLSL']} />
-</Category>
+<div class='border-8 border-tertiary p-5 bg-secondary flex flex-col'>
+  <h2 class='text-4xl font-black'>{title}</h2>
+  <div class='mt-3'>
+    {#each tags as tag, i}
+      <span class='text-xl'>{tag}{i === tags.length - 1 ? '' : ', '}</span>
+    {/each}
+  </div>
+</div>

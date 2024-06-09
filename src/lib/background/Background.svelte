@@ -8,4 +8,4 @@
 </script>
 
 <svelte:window on:resize={() => renderer.resize()} />
-<canvas bind:this={canvas} class='w-100 h-100 position-fixed z-n1'></canvas>
+<canvas bind:this={canvas} class='fixed -z-10'></canvas>

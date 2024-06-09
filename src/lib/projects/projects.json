@@ -1,0 +1,156 @@
+[
+  {
+    "title": "DeltaLang",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/deltalang"
+    },
+    "tags": [
+      "Java",
+      "Gson",
+      "Gradle",
+      "Lombok"
+    ],
+    "description": "DeltaLang is a simple interpreted programming language"
+  },
+  {
+    "title": "QuarkEngine",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/quarkengine"
+    },
+    "tags": [
+      "C",
+      "OpenGL",
+      "GLFW",
+      "GLSL"
+    ],
+    "description": "QuarkEngine is a simple graphics engine written using OpenGL and GLFW, capable of real-time rendering of basic 3D shapes"
+  },
+  {
+    "title": "Reforging",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/reforging"
+    },
+    "tags": [
+      "Java",
+      "Guava",
+      "Gson",
+      "Exp4j",
+      "Spigot",
+      "Gradle"
+    ],
+    "description": "Reforging is a new mechanic for enhancing weapons with various stat boosts and unique abilities"
+  },
+  {
+    "title": "Pets",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/pets"
+    },
+    "tags": [
+      "Java",
+      "Guava",
+      "Gson",
+      "Exp4j",
+      "Spigot",
+      "Gradle"
+    ],
+    "description": "Pets are a new mechanic for enhancing the combat experience by providing various stat boosts"
+  },
+  {
+    "title": "Delta",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/delta"
+    },
+    "tags": [
+      "Java",
+      "Guava",
+      "Gson",
+      "Reflections",
+      "Spigot",
+      "Jackson",
+      "Gradle API",
+      "Doclet",
+      "Gradle"
+    ],
+    "description": "Delta is the backbone of my plugins: Reforging and Pets"
+  },
+  {
+    "title": "Sea battle",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/Sea-battle"
+    },
+    "tags": [
+      "C#",
+      "Unity"
+    ],
+    "description": "Sea battle is a virtual board for the eponymous board game for two"
+  },
+  {
+    "title": "violin.am",
+    "link": {
+      "name": "Website",
+      "href": "https://www.violin.am/"
+    },
+    "tags": [
+      "JS",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Svelte",
+      "SvelteKit",
+      "Leaflet",
+      "Tailwind CSS",
+      "Strapi",
+      "Vercel"
+    ],
+    "description": "violin.am is the biography website of an armenian violinist Anahit Tsitsikyan"
+  },
+  {
+    "title": "Photon",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/photon"
+    },
+    "tags": [
+      "Java",
+      "Gson",
+      "Gradle"
+    ],
+    "description": "Photon is a simple mathematical expression evaluator that supports variables"
+  },
+  {
+    "title": "WebTracker",
+    "link": {
+      "name": "GitHub",
+      "href": "https://github.com/areggalstyan/webtracker"
+    },
+    "tags": [
+      "JS",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Electron"
+    ],
+    "description": "WebTracker is a simple password generator and manager"
+  },
+  {
+    "title": "Aregcraft's Plugins",
+    "link": {
+      "name": "Website",
+      "href": "https://github.com/areggalstyan/aregcraft-plugins"
+    },
+    "tags": [
+      "JS",
+      "Node.js",
+      "Docusaurus",
+      "Markdown",
+      "Vercel"
+    ],
+    "description": "Aregcraft's Plugins is the official documentation website for my plugins"
+  }
+]

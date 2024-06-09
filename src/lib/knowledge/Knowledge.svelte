@@ -1,15 +1,12 @@
 <script>
-  export let name;
-  export let items;
+  import TopBar from '../TopBar.svelte';
+  import KnowledgeCategory from './KnowledgeCategory.svelte';
+  import knowledge from './knowledge.json';
 </script>
 
-<div class='card'>
-  <div class='card-body'>
-    <h5 class='card-title'>{name}</h5>
-    <p class='card-text'>
-      {#each items as item}
-        <span class='badge bg-primary me-1'>{item}</span>
-      {/each}
-    </p>
-  </div>
+<TopBar title='Knowledge' />
+<div class='p-5 grid sm:grid-cols-2 lg:grid-cols-3 gap-5'>
+  {#each knowledge as { title, tags }}
+    <KnowledgeCategory {title} {tags} />
+  {/each}
 </div>
