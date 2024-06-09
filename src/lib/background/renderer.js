@@ -137,7 +137,6 @@ class Polygon {
       difference.normalize().multiply(this.#speed),
       difference
     ).add(this.#position);
-    console.log(this.#speed);
     this.#rotation += this.#rotationSpeed;
   }
 
