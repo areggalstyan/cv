@@ -9,9 +9,9 @@
   export let description;
 </script>
 
-<div class='border-8 border-tertiary inline-block p-5 bg-secondary'>
+<div class='border-2 rounded border-tertiary inline-block p-5 bg-secondary'>
   <div class='flex flex-col sm:flex-row items-center'>
-    <h2 class='text-2xl font-black text-center flex items-center'>
+    <h2 class='text-2xl text-center flex items-center'>
       {#if title === 'Reforging'}
         Reforging <span class='text-base font-normal ml-3'><Fa icon={faDownload} class='inline' /> 5.3K+</span>
       {:else if title === 'Pets'}

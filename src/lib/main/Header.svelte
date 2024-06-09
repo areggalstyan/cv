@@ -12,5 +12,5 @@
   <InlineFa icon={faLocationDot} />
   Yerevan, Armenia<br>
   <InlineFa icon={faSchool} />
-  PhysMath school
+  A. Shahinyan PhysMath School
 </p>

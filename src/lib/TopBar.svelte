@@ -6,8 +6,10 @@
 </script>
 
 <div class='p-5 border-b-2 border-secondary'>
-  <h1 class='text-4xl font-black'>
-    <a href='#/'><InlineFa icon={faArrowLeft} /></a>
+  <h1 class='text-4xl'>
+    <a href='#/'>
+      <InlineFa icon={faArrowLeft} />
+    </a>
     {title}
   </h1>
 </div>

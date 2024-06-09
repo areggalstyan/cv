@@ -10,7 +10,7 @@
     '#projects': Projects,
     '#knowledge': Knowledge,
     '#achievements': Achievements
-  }
+  };
 </script>
 
 <Background />
