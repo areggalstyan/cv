@@ -10,7 +10,7 @@ export default {
         primary: '#f0f8ff',
         secondary: '#d8dfe6',
         tertiary: '#c0c6cc',
-        quaternary: '#787c80'
+        quaternary: '#909599'
       }
     }
   },
